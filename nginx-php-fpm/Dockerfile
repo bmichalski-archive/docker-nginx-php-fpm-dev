@@ -9,5 +9,4 @@ COPY conf/etc/nginx/sites-available/default /etc/nginx/sites-available/default
 RUN \
   ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
-CMD \
-  /root/on-startup.sh
+CMD /root/on-startup.sh

@@ -9,5 +9,4 @@ RUN \
 
 COPY conf/etc/php5 /etc/php5
 
-CMD \
-  /root/on-startup.sh
+CMD /root/on-startup.sh
